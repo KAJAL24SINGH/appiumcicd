@@ -14,15 +14,7 @@
   <parameter name="chromeDriverPort" value="11001"/>
     <classes>
    <class name="com.qa.tests.LoginTests">
-   <methods>
-      <include name= "invalidUserName"/>
-      </methods> 
-      </class> 
-  <class name="com.qa.tests.ProductTests">
-   <methods>
-      <include name= "validateProductOnProductDetailsPage"/>
-      </methods> 
-      </class> 
+  <!-- <class name="com.qa.tests.ProductTests"></class> -->
     </classes>
   </test>  <!-- Test --> 
 </suite> <!-- Suite -->
