@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+  <test name="Moto X Force">
+  <listeners>
+  <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <parameter name="emulator" value="false"/> 
+  <parameter name="udid" value="ZY2233MSWG"/> 
+  <parameter name="platformName" value="Android"/> 
+  <parameter name="platformVersion" value="10.0"/>
+  <parameter name="deviceName" value="Moto X Force"/>
+  <parameter name="systemPort" value="10000"/>
+  <parameter name="chromeDriverPort" value="11000"/>
+    <classes>
+   <class name="com.qa.tests.LoginTests">
+     <!-- <methods>
+      <include name= "invalidUserName"/>
+      </methods> -->
+      </class> 
+   <class name="com.qa.tests.ProductTests">
+    <!--<methods>
+      <include name= "validateProductOnProductDetailsPage"/>
+      </methods> -->
+      </class> 
+    </classes>
+    </test>
+</suite> <!-- Suite -->

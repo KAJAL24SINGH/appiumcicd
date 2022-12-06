@@ -1,0 +1,25 @@
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:00:47.733 BaseTest:194 - log path: logs\Android_Moto X Force
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:00:47.768 BaseTest:227 - appUrl is C:\Users\kajal\eclipse-workspace\TDDFramewkParallelExecution\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:12.354 LoginTests:57 - Login before method
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:12.502 LoginTests:59 - 
+ ******* Starting Test :invalidUserName*******
+
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:12.510 LoginPage:17 - login with invalidusername
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:14.344 LoginPage:24 - login with secret_sauce
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:15.718 LoginPage:30 - press login button
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:16.520 LoginPage:42 - Error Text is - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Error message"]/android.widget.TextView})
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:17.457 LoginTests:75 - actual error txt - Username and password do not match any user in this service.
+expected error txt - Username and password do not match any user in this service.
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:17.461 LoginTests:64 - Login after method
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:24.091 ProductTests:63 - 
+ ******* Starting Test :validateProductOnProductDetailsPage*******
+
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:24.092 LoginPage:17 - login with standard_user
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:26.017 LoginPage:24 - login with secret_sauce
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:27.316 LoginPage:30 - press login button
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:28.045 ProductsPage:34 - Press SLB Title link 
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:35.804 ProductDetailsPage:21 - Title is Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[1]})
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:36.247 ProductDetailsPage:26 - Text is Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Description"]/android.widget.TextView[2]})
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:36.794 ProductDetailsPage:31 - Price is Located by By.chained({By.AccessibilityId: test-Price})
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:37.046 MenuPage:19 - press Settings button
+[logsAndroid_Moto X Force INFO ] 2022-11-29 19:01:37.474 SettingsPage:15 - press Logout button

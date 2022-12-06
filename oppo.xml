@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+   <test name="OPPOA57">
+  <listeners>
+  <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <parameter name="emulator" value="false"/> 
+  <parameter name="udid" value="d3eed60a"/> 
+  <parameter name="platformName" value="Android"/> 
+  <parameter name="platformVersion" value="10.0"/>
+  <parameter name="deviceName" value="OPPOA57"/>
+  <parameter name="systemPort" value="10001"/>
+  <parameter name="chromeDriverPort" value="11001"/>
+    <classes>
+   <class name="com.qa.tests.LoginTests">
+   <methods>
+      <include name= "invalidUserName"/>
+      </methods> 
+      </class> 
+  <class name="com.qa.tests.ProductTests">
+   <methods>
+      <include name= "validateProductOnProductDetailsPage"/>
+      </methods> 
+      </class> 
+    </classes>
+  </test>  <!-- Test --> 
+</suite> <!-- Suite -->
+

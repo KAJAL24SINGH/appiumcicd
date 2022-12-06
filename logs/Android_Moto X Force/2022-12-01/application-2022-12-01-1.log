@@ -1,0 +1,35 @@
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:23.502 BaseTest:194 - log path: logs\Android_Moto X Force
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:23.551 BaseTest:227 - appUrl is C:\Users\kajal\eclipse-workspace\TDDFramewkParallelExecution\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:51.130 LoginTests:57 - Login before method
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:51.272 LoginTests:59 - 
+ ******* Starting Test :invalidPassword*******
+
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:51.276 LoginPage:17 - login with standard_user
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:53.383 LoginPage:24 - login with invalidpassword
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:54.701 LoginPage:30 - press login button
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:55.940 LoginPage:42 - Error Text is - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Error message"]/android.widget.TextView})
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:56.843 LoginTests:88 - actual error txt - Username and password do not match any user in this service.
+expected error txt - Username and password do not match any user in this service.
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:56.849 LoginTests:64 - Login after method
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:59.130 LoginTests:57 - Login before method
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:59.132 LoginTests:59 - 
+ ******* Starting Test :invalidUserName*******
+
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:21:59.133 LoginPage:17 - login with invalidusername
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:00.098 LoginPage:24 - login with secret_sauce
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:01.335 LoginPage:30 - press login button
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:02.077 LoginPage:42 - Error Text is - Located by By.chained({By.xpath: //android.view.ViewGroup[@content-desc="test-Error message"]/android.widget.TextView})
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:02.405 LoginTests:75 - actual error txt - Username and password do not match any user in this service.
+expected error txt - Username and password do not match any user in this service.
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:02.410 LoginTests:64 - Login after method
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:04.564 LoginTests:57 - Login before method
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:04.565 LoginTests:59 - 
+ ******* Starting Test :successfulLogin*******
+
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:04.566 LoginPage:17 - login with standard_user
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:05.492 LoginPage:24 - login with secret_sauce
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:06.816 LoginPage:30 - press login button
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:07.549 ProductsPage:19 - Product page title is Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc="test-PRODUCTS"]//preceding-sibling::android.view.ViewGroup//android.widget.TextView})
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:09.593 LoginTests:101 - actual title - PRODUCTS
+expected title - PRODUCTS
+[logsAndroid_Moto X Force INFO ] 2022-12-01 13:22:09.596 LoginTests:64 - Login after method
